@@ -21,3 +21,12 @@ Post Implementation
 ![Post implementation](/screenshots/activity3_4.png)
 Logout Implementation
 ![Admin logout](/screenshots/activity3_5.png)
+### Activity 4 Javascript Delete Post
+Posted 3 posts
+![3 Posts](/screenshots/activity4_1.png)
+Deleted 1 post
+![Deleted second post](/screenshots/activity4_2.png)
+Database flaskr.db confirms deletion
+![Delete post flaskr database](/screenshots/activity4_3.png)
+Passed test case
+![Passed delete post test case](/screenshots/activity4_4.png)
