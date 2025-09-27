@@ -10,3 +10,14 @@ This is an ECE444 lab following the instructions of <https://github.com/shuruizU
 ![Hello World Test Case Screenshot](/screenshots/activity1_2.png)
 ### Activity 2 Database Setup
 ![Database Test Case Screenshot](/screenshots/activity2_1.png)
+### Activity 3 User Login, Logout & Post View
+Failed Test Case
+![User Login and Logout Failed Testcase](/screenshots/activity3_1.png)
+Passed Test Case
+![User Login and Logout Passed Testcase](/screenshots/activity3_2.png)
+Login Implementation
+![Admin login](/screenshots/activity3_3.png)
+Post Implementation
+![Post implementation](/screenshots/activity3_4.png)
+Logout Implementation
+![Admin logout](/screenshots/activity3_5.png)
