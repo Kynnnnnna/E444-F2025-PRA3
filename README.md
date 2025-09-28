@@ -40,13 +40,13 @@ Deployed website
 ![Login Page](/screenshots/activity6_2.png)
 ![User Post Page](/screenshots/activity6_3.png)
 ### Activity 7 Upgrade to Flask-SQLAlchemy
-Passed test case:
-![Passed test case](/screenshots/activity7_1.png)
-running local server
-![running local server](/screenshots/activity7_2.png)
-post and delete
-![post and delete](/screenshots/activity7_3.png)
-login
-![login](/screenshots/activity7_4.png)
-logout
-![logout](/screenshots/activity7_5.png)
+Passed test case:<br/>
+![Passed test case](/screenshots/activity7_1.png)<br/>
+running local server<br/>
+![running local server](/screenshots/activity7_2.png)<br/>
+post and delete<br/>
+![post and delete](/screenshots/activity7_3.png)<br/>
+login <br/>
+![login](/screenshots/activity7_4.png)<br/>
+logout <br/>
+![logout](/screenshots/activity7_5.png)<br/>
