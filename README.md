@@ -66,3 +66,6 @@ Failed to delete posts when not logged in: <br/>
 ![Please log in](/screenshots/activity9_2.png)<br/>
 Successful deletion of post when logged in: <br/>
 ![Post deleted](/screenshots/activity9_3.png)<br/>
+### Activity 10 Connect Postgres database to project
+Passed test case locally
+![Passed test case](/screenshots/activity10_1.png)

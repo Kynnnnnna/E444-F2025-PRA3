@@ -1,0 +1,4 @@
+Internal:
+postgresql://e444_f2025_pra3_dbtest_user:PnLoBgdH330FctuZbpCcCj6hFdq4mWXb@dpg-d3cpo41r0fns738isakg-a/e444_f2025_pra3_dbtest
+External:
+postgresql://e444_f2025_pra3_dbtest_user:PnLoBgdH330FctuZbpCcCj6hFdq4mWXb@dpg-d3cpo41r0fns738isakg-a.oregon-postgres.render.com/e444_f2025_pra3_dbtest

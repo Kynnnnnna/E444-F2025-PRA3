@@ -3,3 +3,4 @@ Flask-SQLAlchemy
 Flask-Bootstrap
 pytest
 gunicorn
+psycopg2-binary
