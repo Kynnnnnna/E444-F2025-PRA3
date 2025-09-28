@@ -30,3 +30,8 @@ Database flaskr.db confirms deletion
 ![Delete post flaskr database](/screenshots/activity4_3.png)
 Passed test case
 ![Passed delete post test case](/screenshots/activity4_4.png)
+### Activity 5 Render Web Service Deployment
+Render log
+![Render Deployment Successful Logs](/screenshots/activity5_1.png)
+Deployed website
+![Deployed website](/screenshots/activity5_2.png)
