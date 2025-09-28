@@ -59,3 +59,10 @@ search bar<br/>
 ![search bar](/screenshots/activity8_3.png)<br/>
 search result <br/>
 ![search result](/screenshots/activity8_4.png)<br/>
+### Activity 9 Cannot delete posts when not logged in
+Passed test case: <br/>
+![Passed test case](/screenshots/activity9_1.png)<br/>
+Failed to delete posts when not logged in: <br/>
+![Please log in](/screenshots/activity9_2.png)<br/>
+Successful deletion of post when logged in: <br/>
+![Post deleted](/screenshots/activity9_3.png)<br/>
