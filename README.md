@@ -35,3 +35,7 @@ Render log
 ![Render Deployment Successful Logs](/screenshots/activity5_1.png)
 Deployed website
 ![Deployed website](/screenshots/activity5_2.png)
+### Activity 6 Changed to Bootstrap Style
+![Stranger Home Page](/screenshots/activity6_1.png)
+![Login Page](/screenshots/activity6_2.png)
+![User Post Page](/screenshots/activity6_3.png)
