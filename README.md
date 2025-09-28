@@ -50,3 +50,12 @@ login <br/>
 ![login](/screenshots/activity7_4.png)<br/>
 logout <br/>
 ![logout](/screenshots/activity7_5.png)<br/>
+### Activity 8 Added Post Search Function
+Passed test case:<br/>
+![Passed test case](/screenshots/activity8_1.png)<br/>
+home page with search button<br/>
+![search button](/screenshots/activity8_2.png)<br/>
+search bar<br/>
+![search bar](/screenshots/activity8_3.png)<br/>
+search result <br/>
+![search result](/screenshots/activity8_4.png)<br/>
