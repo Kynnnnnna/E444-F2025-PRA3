@@ -11,4 +11,4 @@ class Post(db.Model):
         self.text = text
 
     def __repr__(self):
-        return f'<Post {self.title}>'
+        return f"<Post {self.title}>"
