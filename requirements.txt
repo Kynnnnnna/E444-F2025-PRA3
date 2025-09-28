@@ -4,3 +4,5 @@ Flask-Bootstrap
 pytest
 gunicorn
 psycopg2-binary
+flake8
+black
