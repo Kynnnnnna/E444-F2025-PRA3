@@ -69,3 +69,5 @@ Successful deletion of post when logged in: <br/>
 ### Activity 10 Connect Postgres database to project
 Passed test case locally
 ![Passed test case](/screenshots/activity10_1.png)
+Runs on render
+![Functioning web page on Render](/screenshots/activity10_2.png)
