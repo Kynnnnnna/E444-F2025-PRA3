@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 
 from project.app import app, db
+from project.models import Post
 
 TEST_DB = "test.db"
 
@@ -100,3 +101,34 @@ def test_search(client):
     assert rv.status_code == 200
     rv = client.get("/search/?query=test")
     assert rv.status_code == 200
+
+
+def seed_posts(app):
+
+    with app.app_context():
+        db.drop_all()
+        db.create_all()
+
+        posts = [
+            Post("Hello World", "First post"),
+            Post("Flask Tips", "Use blueprints"),
+            Post("Banana Bread", "Loaf recipe"),
+        ]
+        db.session.add_all(posts)
+        db.session.commit()
+        return posts
+
+
+def test_search_with_seed(client):
+    """Ensure the search page works with seeded posts"""
+    seed_posts(app)
+    rv = client.get("/search/?query=Flask")
+    assert rv.status_code == 200
+    assert b"Flask Tips" in rv.data
+    assert b"Banana Bread" not in rv.data
+    assert b"Hello World" not in rv.data
+    rv = client.get("/search/?query=post")
+    assert rv.status_code == 200
+    assert b"Hello World" in rv.data
+    assert b"Flask Tips" not in rv.data
+    assert b"Banana Bread" not in rv.data
