@@ -1,5 +1,5 @@
 Flask
 Flask-SQLAlchemy
 Flask-Bootstrap
-Pytest
+pytest
 gunicorn
